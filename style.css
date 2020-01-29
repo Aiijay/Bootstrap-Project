@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto' !important;
+  overflow-x: hidden;
+}
+.container-fluid{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.container-fluid > .sticky-top{
+  background-color: #FE6340;
+  height: 2vh;
+}
+header{
+  height: 97vh;
+}
+.nav-bar ul{
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
+}
+.nav-bar a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.nav-bar .get-started{
+  color:#FE6340;
+}
+.bg-img{
+  background-image: url("./img/louis-hansel-5YWiNuWgiMs-unsplash.jpg");
+  height: 97vh;
+  background-size: cover;
+}
+hr{
+  border: 1px solid black;
+}
+.chef{
+  background-color: #475A51;
+  height: 100vh;
+  color: #FCF9F4;
+}
+.sec-img{
+  background-image: url(./img/drew-stewart-nXhND4y3riM-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.sec-1{
+  background-color: #E0D3CB;
+  font-size: 20px;
+}
+.content-1{
+  padding: 70px;
+  
+}
+.contain h1{
+  color:#E1E4E2;
+}
+.contain .h1{
+  color:#BC9E7B;
+}
+.sec-1-img{
+  background-image: url(./img/cathal-mac-an-bheatha-O6gvQe70DD4-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.sec-2{
+  background-color: #FCF9F4;
+  font-size: 20px;
+}
+.content{
+  padding: 70px;
+  font-size: 24px;
+}
+.sec-2-img{
+  background-color: #FE6340;
+  align-content: center;
+  padding: 100px; 
+}
+.sec-2-img img{
+  width: 400px;
+  height: auto;
+}
+.offer{
+  background-color: #BC9E7B;
+}
+.items{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: #A88D6E;
+  align-items: center;
+}
+.row img{
+  height: 150px;
+  object-fit: cover;
+}
+.sec-4-img{
+  background-image: url(./img/jessica-lewis-EzCs892mW6Y-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.footer{
+  background-color: #475A51;
+}
+.vl {
+  border-left: 1px solid #000;
+  height: 170px;
+}
+.end{
+  color: #E1E4E2;
+}
+
+
+
+/* media queries */
+
+
+
+@media only screen and (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+ .nav-bar ul {
+    font-size: 16px;
+    display: block;
+    justify-content: center;
+  }
+  .nav-bar a{
+    font-weight: lighter;
+  }
+  ul div:nth-of-type(2){
+    display: block;
+    justify-content: center;
+  } 
+  .geneticist{
+    height: 50vh;
+  }
+  .bg-img, .sec-img, .sec-4-img{
+    height: 50vh;
+    background-position: center;
+  }
+  .Ono{
+    padding-top: 74px;
+  }
+  .content-1{
+    padding: 32px;
+    font-size: 16px; 
+  }
+  .content{
+    padding: 32px;
+    font-size: 16px;
+  }
+  .contain .h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .offers{
+    align-items: center;
+    justify-content: center;
+  }
+  .sec-2-img{
+    padding: 32px;  
+  }
+  .sec-2-img img{
+    width: 300px;
+  } 
+}
+@media only screen and (max-width: 425px){
+  .get-started{
+    display: none;
+  }
+}
